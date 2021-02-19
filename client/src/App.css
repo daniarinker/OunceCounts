@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.logo {
+  padding: 0px;
+  margin: 0px;
+  text-align: left;
+  display: inline-block;
+  vertical-align:top;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -17,4 +25,22 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
+}
+
+.card {
+  display: inline;
+  display: block;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+#picture {
+  height: 400px;
+  width: 400px;
 }
